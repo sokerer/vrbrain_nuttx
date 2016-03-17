@@ -450,9 +450,9 @@ adc_main(int argc, char *argv[])
 #ifdef CONFIG_ARCH_BOARD_VRBRAIN_V53
 		/* XXX this hardcodes the default channel set for VRBRAINv51 - should be configurable */
 #if APM_BUILD_TYPE(APM_BUILD_ArduPlane)
-		g_adc = new ADC((1 << 10) | (1 << 11) | (1 << 14));
+		g_adc = new ADC((1 << 1) | (1 << 2) | (1 << 3) | (1 << 10) | (1 << 11) | (1 << 14));
 #else
-		g_adc = new ADC((1 << 10) | (1 << 11));
+		g_adc = new ADC((1 << 1) | (1 << 2) | (1 << 3) | (1 << 10) | (1 << 11));
 #endif
 #endif
 #ifdef CONFIG_ARCH_BOARD_VRUBRAIN_V51
