@@ -10,6 +10,7 @@ make archives MAXOPTIMIZATION=-Os BOARDS=vrbrain-v52
 make archives MAXOPTIMIZATION=-Os BOARDS=vrbrain-v52P
 make archives MAXOPTIMIZATION=-Os BOARDS=vrbrain-v52Pro
 make archives MAXOPTIMIZATION=-Os BOARDS=vrbrain-v52ProP
+make archives MAXOPTIMIZATION=-Os BOARDS=vrbrain-v53
 make archives MAXOPTIMIZATION=-Os BOARDS=vrubrain-v51
 make archives MAXOPTIMIZATION=-Os BOARDS=vrubrain-v51P
 make archives MAXOPTIMIZATION=-Os BOARDS=vrubrain-v52
