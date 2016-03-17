@@ -271,6 +271,9 @@ __EXPORT int nsh_archinitialize(void)
 	message("\n");
 
 	/* configure always-on ADC pins */
+	stm32_configgpio(GPIO_ADC1_IN1);
+	stm32_configgpio(GPIO_ADC1_IN2);
+	stm32_configgpio(GPIO_ADC1_IN3);
 	stm32_configgpio(GPIO_ADC1_IN10);
 	stm32_configgpio(GPIO_ADC1_IN11);
 #if APM_BUILD_TYPE(APM_BUILD_ArduPlane)
@@ -283,9 +286,6 @@ __EXPORT int nsh_archinitialize(void)
 	stm32_gpiowrite(GPIO_UART_SBUS_INVERTER, 1);
 #else
 	stm32_gpiowrite(GPIO_UART_SBUS_INVERTER, 0);
-#endif
-#if !CONFIG_RC_INPUTS_TYPE(RC_INPUT_PWM)
-    stm32_configgpio(GPIO_GPIO5_OUTPUT);
 #endif
 
 	/* configure the high-resolution time/callout interface */
