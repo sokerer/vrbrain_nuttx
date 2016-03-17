@@ -75,6 +75,10 @@
 #define	HW_ARCH "VRBRAIN_V52"
 #endif
 
+#ifdef CONFIG_ARCH_BOARD_VRBRAIN_V53
+#define	HW_ARCH "VRBRAIN_V53"
+#endif
+
 #ifdef CONFIG_ARCH_BOARD_VRUBRAIN_V51
 #define	HW_ARCH "VRUBRAIN_V51"
 #endif
