@@ -2791,9 +2791,9 @@ start(int argc, char *argv[])
 	exit(0);
 }
 
-void
-detect(int argc, char *argv[])
-{
+//void
+//detect(int argc, char *argv[])
+//{
 
 
 
@@ -2818,11 +2818,11 @@ detect(int argc, char *argv[])
 
 
 
-}
+//}
 
-void
-checkcrc(int argc, char *argv[])
-{
+//void
+//checkcrc(int argc, char *argv[])
+//{
 
 
 
@@ -2881,11 +2881,11 @@ checkcrc(int argc, char *argv[])
 
 
 
-}
+//}
 
-void
-bind(int argc, char *argv[])
-{
+//void
+//bind(int argc, char *argv[])
+//{
 
 
 
@@ -2922,7 +2922,7 @@ bind(int argc, char *argv[])
 
 
 
-}
+//}
 
 void
 test(void)
@@ -3054,9 +3054,9 @@ monitor(void)
 	}
 }
 
-void
-if_test(unsigned mode)
-{
+//void
+//if_test(unsigned mode)
+//{
 
 
 
@@ -3068,23 +3068,11 @@ if_test(unsigned mode)
 
 
 
-}
+//}
 
-void
-lockdown(int argc, char *argv[])
-{
-
-
-
-
-
-
-
-
-
-
-
-
+//void
+//lockdown(int argc, char *argv[])
+//{
 
 
 
@@ -3122,8 +3110,20 @@ lockdown(int argc, char *argv[])
 
 
 
-	exit(0);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+//	exit(0);
+//}
 
 } /* namespace */
 
