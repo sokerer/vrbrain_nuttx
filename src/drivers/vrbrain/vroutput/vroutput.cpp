@@ -1883,23 +1883,23 @@ sensor_reset(int ms)
 	close(fd);
 }
 
-void
-peripheral_reset(int ms)
-{
-	int	 fd;
-
-	fd = open(VROUTPUT_DEVICE_PATH, O_RDWR);
-
-	if (fd < 0) {
-		errx(1, "open fail");
-	}
-
-	if (ioctl(fd, GPIO_PERIPHERAL_RAIL_RESET, ms) < 0) {
-		warnx("peripheral rail reset failed");
-	}
-
-	close(fd);
-}
+//void
+//peripheral_reset(int ms)
+//{
+//	int	 fd;
+//
+//	fd = open(VROUTPUT_DEVICE_PATH, O_RDWR);
+//
+//	if (fd < 0) {
+//		errx(1, "open fail");
+//	}
+//
+//	if (ioctl(fd, GPIO_PERIPHERAL_RAIL_RESET, ms) < 0) {
+//		warnx("peripheral rail reset failed");
+//	}
+//
+//	close(fd);
+//}
 
 void
 test(void)
