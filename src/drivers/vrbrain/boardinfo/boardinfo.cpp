@@ -115,6 +115,11 @@ int VRBRAIN_V52PROP_main(int argc, char *argv[]) {exit(0);}
 extern "C" __EXPORT int VRBRAIN_V53_main(int argc, char *argv[]);
 int VRBRAIN_V53_main(int argc, char *argv[]) {exit(0);}
 
+#elif defined(CONFIG_SUBTYPE_BOARD_VRBRAIN_V53PRO)
+
+extern "C" __EXPORT int VRBRAIN_V53PRO_main(int argc, char *argv[]);
+int VRBRAIN_V53PRO_main(int argc, char *argv[]) {exit(0);}
+
 #elif defined(CONFIG_SUBTYPE_BOARD_VRUBRAIN_V51)
 
 extern "C" __EXPORT int VRUBRAIN_V51_main(int argc, char *argv[]);
