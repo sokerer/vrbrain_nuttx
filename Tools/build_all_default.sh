@@ -13,6 +13,7 @@ make vrbrain-v52P_default
 make vrbrain-v52Pro_default
 make vrbrain-v52ProP_default
 make vrbrain-v53_default
+make vrbrain-v53Pro_default
 make vrubrain-v51_default
 make vrubrain-v51P_default
 make vrubrain-v52_default
