@@ -294,6 +294,11 @@ __BEGIN_DECLS
 #define GPIO_PPM_IN			(GPIO_ALT|GPIO_AF2|GPIO_SPEED_50MHz|GPIO_PULLUP|GPIO_PORTD|GPIO_PIN12)
 #endif
 
+/* PWM input driver. Use FMU AUX5 pins attached to timer4 channel 2 */
+#define PWMIN_TIMER		    4
+#define PWMIN_TIMER_CHANNEL	2
+#define GPIO_PWM_IN		    GPIO_TIM4_CH2IN_2
+
 /****************************************************************************************************
  * Public Types
  ****************************************************************************************************/
